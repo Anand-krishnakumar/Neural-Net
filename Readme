@@ -1,0 +1,13 @@
+
+Data set used: Car dataset from UCI
+URL: https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data
+
+HOW TO RUN:
+python3 NeuralNet.py
+
+NOTE:
+Run the program by running one activation function at a time in the main function. They are sepearted as sigmoid activation function, tanh activation function and relu activation function comment blocks.
+For example, relu activation function is run by the following calls: 
+
+neural_network.train(activation = "relu", max_iterations = 1000, learning_rate = 0.009)
+neural_network.predict(activation = "relu" )
